@@ -1,0 +1,46 @@
+<div class="search-products">
+    <input type="text" name="search" placeholder="Search For Resturants" [(ngModel)]="filterTerm">
+    <button class="search-icon"><i class="fa fa-search fa-3x"></i>Search</button>
+  </div>
+
+
+  <div class="card mb-6" style="max-width: 600px; margin-left: auto;margin-right: auto; margin-top: 10px;">
+    <div class="row g-0">
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title" style="color: #0D8CF1;">Product Name</h5>
+          <p class="card-text">Product Discription</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="../../assets/product6.jpg" class="img-fluid rounded-start">
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex">
+      <div style="margin-top: 180px;">
+          <img src="../../assets/photo1.png"/>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-5 mt-5" *ngFor="
+            let i of image
+             |filter: filterTerm">
+              <div class="product-box">
+                  <div class="product-thumb">
+                      <div class="product-overlay" [style.background-image]="'url('+i.source+')'"></div>
+                  </div>
+                  <div class="product-caption">
+                      <a href="#">product Name</a>
+                      <div class="main-recipe">
+                          <div class="main-recipe-name">product Discription</div>
+                      </div>
+                  </div>
+              </div>
+           </div>
+        </div>
+    </div>
+  </div>
+
+  
