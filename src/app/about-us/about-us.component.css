@@ -1,0 +1,25 @@
+.container{
+    overflow: hidden;
+}
+#fimage{
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.divp{
+   width: 400px;
+   height:400px;
+}
+#start{
+    width: 420px;
+    height: 420px;
+    position: relative;
+    bottom: 10px;
+}
+.team{
+    border-radius: 100%;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    height: auto;
+    width: 100%;
+} 
