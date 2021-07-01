@@ -1,6 +1,6 @@
 .search-products {
     display: flex;
-    width: 360px;
+    width: 400px;
     margin-left: 960px;
   }
   
@@ -12,14 +12,19 @@
     width: 300px;
   }
   .search-products .search-icon {
-    width: 70px;
+    width: 110px;
     background-color: #0D8CF1;
     color: white;
     margin-left:-70px;
     border: 0;
     border-radius: 0 8px 8px 0;
   }
-  
+  .fa, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 12px;
+}
   .search-products .svg-inline--fa {
     top: 10px;
     font-size: 20px;
@@ -40,7 +45,16 @@
     width: 275px;
     cursor: pointer;
 }
-
+.card{
+    border-radius: 15px;
+    font-family: 'Calibri', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    transition: all 0.25s ease-in-out 0s;
+    cursor: pointer;
+    box-shadow: 0 10px 22px #d0d0d0;
+}
+.card:hover{
+    transform: scale(1.06);
+}
 .product-box .product-thumb {
     position: relative;
     overflow: hidden;

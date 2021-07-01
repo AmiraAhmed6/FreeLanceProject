@@ -1,0 +1,7 @@
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: black;
+}
+.navbar .nav-item:hover .nav-link.active{
+    color: #0D8CF1;
+
+}
