@@ -1,0 +1,22 @@
+.bg{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+#bgphoto{
+  width: 100%;
+  height: 500px;
+  opacity: 68%;
+
+}
+h4{
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: -200px;
+}
+.d-flex{
+    margin: 100px;
+}
+i{
+    opacity: 40%;
+}
