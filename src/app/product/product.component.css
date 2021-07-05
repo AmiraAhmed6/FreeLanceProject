@@ -1,21 +1,20 @@
 .search-products {
     display: flex;
-    width: 400px;
-    margin-left: 960px;
+    width: 100%;
+    margin-left: 50%;
   }
-  
   .search-products input {
     border-radius: 8px;
     border: 2px solid #0D8CF1;
     outline: none;
     padding: 10px;
-    width: 300px;
+    width: 40%;
   }
   .search-products .search-icon {
-    width: 110px;
+    width: 20%;
     background-color: #0D8CF1;
     color: white;
-    margin-left:-70px;
+    margin-left:-20%;
     border: 0;
     border-radius: 0 8px 8px 0;
   }
