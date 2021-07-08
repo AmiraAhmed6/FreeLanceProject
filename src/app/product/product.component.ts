@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class ProductComponent implements OnInit {
 
   constructor() { }
-  filterTerm!: string;
   image :any[]=[];
   ngOnInit(): void {
     this.image.push({source:'../../assets/product1.jpg'});
