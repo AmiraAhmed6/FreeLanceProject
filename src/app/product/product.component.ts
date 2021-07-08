@@ -16,6 +16,7 @@ export class ProductComponent implements OnInit {
     this.image.push({source:'../../assets/product3.jpg'});
     this.image.push({source:'../../assets/product4.jpg'});
     this.image.push({source:'../../assets/product5.jpg'});
+    this.image.push({source:'../../assets/product6.jpg'});
   }
 
 }

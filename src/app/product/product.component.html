@@ -3,28 +3,27 @@
     <button class="search-icon"><i class="fa fa-search fa-3x"></i>Search</button>
   </div>
 
-
-  <div class="card mb-6" style="max-width: 796px;height: 270px; margin-left: auto;margin-right: auto; margin-top: 30px;">
-    <div class="row g-0">
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title" style="color: #0D8CF1;">Product Name</h5>
-          <p class="card-text">Product Discription</p>
-        </div>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="margin: 20px;height: auto;">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../../assets/carousel3.jpg" class="d-block w-100">
       </div>
-      <div class="col-md-4">
-        <img src="../../assets/product6.jpg" class="img-fluid rounded-start" style="border-radius: 15px;width: 796px;height: 270px;">
+      <div class="carousel-item">
+        <img src="../../assets/carousel.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/carousel2.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/carousel4.jpg" class="d-block w-100">
       </div>
     </div>
   </div>
 
-  <div class="d-md-flex">
-      <div style="margin-top: 180px;">
-          <img src="../../assets/photo1.png" class="col-12"/>
-      </div>
+
       <div class="container">
         <div class="row">
-            <div class="col-lg-5 mt-5" *ngFor="
+            <div class="col-lg-4 mt-5" *ngFor="
             let i of image
              |filter: filterTerm">
               <div class="product-box">
@@ -41,6 +40,6 @@
            </div>
         </div>
     </div>
-  </div>
+
 
   
