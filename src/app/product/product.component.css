@@ -1,34 +1,9 @@
-.search-products {
-    display: flex;
-    width: 50%;
-    margin-left: 50%;
-  }
-  .search-products input {
-    border-radius: 8px;
-    border: 2px solid #0D8CF1;
-    outline: none;
-    padding: 10px;
-    width: 300px;
-  }
-  .search-products .search-icon {
-    width: 86px;
-    background-color: #0D8CF1;
-    color: white;
-    margin-left:-8%;
-    border: 0;
-    border-radius: 0 8px 8px 0;
-  }
   .fa, .fas {
     font-family: 'Font Awesome 5 Free';
     font-weight: 600;
     font-size: 20px;
     padding-right: 12px;
 }
-  .search-products .svg-inline--fa {
-    top: 10px;
-    font-size: 20px;
-    color: #fff;
-  }
   .product-box {
     background: #fff none repeat scroll 0 0;
     border-bottom: 1px solid #d0d0d0;
